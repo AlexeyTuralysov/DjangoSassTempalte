@@ -1,3 +1,7 @@
+````
+pip install libsass django-sass-processor
+````
+
 # settings.py
 ````
 #settings.py
