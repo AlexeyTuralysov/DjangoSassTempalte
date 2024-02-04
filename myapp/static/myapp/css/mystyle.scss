@@ -1,0 +1,36 @@
+// static/css/styles.scss
+
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $secondary-color;
+  color: $primary-color;
+  margin: 20px;
+
+  h1 {
+    font-size: 2em;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: $primary-color;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+}
