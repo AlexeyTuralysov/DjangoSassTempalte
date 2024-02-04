@@ -18,8 +18,9 @@ INSTALLED_APPS = [
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static'
 SASS_PROCESSOR_ROOT = STATIC_ROOT
-```
+````
 # myapp/index.html
+
 ````
 <!DOCTYPE html>
 <html lang="en">
@@ -34,4 +35,4 @@ SASS_PROCESSOR_ROOT = STATIC_ROOT
 
 </body>
 </html>
-```
+````
